@@ -2,7 +2,7 @@
   "name": "module-ensureLoggedIn",
   "version": "1.0.0",
   "description": "Login session ensuring middleware for Express.",
-  "keywords": ["connect", "express", "auth", "authn", "authentication", "login", "session", "passport"],
+  "keywords": ["express", "auth", "authn", "authentication", "login", "session", "passport"],
   "repository": {
     "type": "git",
     "url": "git://github.com/yigithsyn/module-ensureLoggedIn.git"
@@ -12,7 +12,7 @@
   },
   "author": {
     "name": "Hüseyin Yiğit",
-    "email": "yigithsyn@gmail.com",
+    "email": "yigit.hsyn@gmail.com",
     "url": ""
   },
   "licenses": [ {
