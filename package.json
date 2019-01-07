@@ -1,5 +1,5 @@
 {
-  "name": "module-ensureLoggedIn",
+  "name": "module-ensureloggedin",
   "version": "1.0.0",
   "description": "Login session ensuring middleware for Express.",
   "keywords": ["express", "auth", "authn", "authentication", "login", "session", "passport"],
