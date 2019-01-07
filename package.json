@@ -1,19 +1,19 @@
 {
-  "name": "connect-ensure-login",
+  "name": "module-ensureLoggedIn",
   "version": "0.1.1",
-  "description": "Login session ensuring middleware for Connect.",
+  "description": "Login session ensuring middleware for Express.",
   "keywords": ["connect", "express", "auth", "authn", "authentication", "login", "session", "passport"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/connect-ensure-login.git"
+    "url": "git://github.com/yigithsyn/module-ensureLoggedIn.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/connect-ensure-login/issues"
+    "url": "http://github.com/yigithsyn/module-ensureLoggedIn/issues"
   },
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Hüseyin Yiğit",
+    "email": "yigithsyn@gmail.com",
+    "url": ""
   },
   "licenses": [ {
     "type": "MIT",
@@ -28,5 +28,5 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": { "node": ">= 8.10.0" }
 }
