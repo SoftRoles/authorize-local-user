@@ -1,32 +1,42 @@
 {
-  "name": "module-ensureloggedin",
+  "name": "@softroles/ensure-login",
   "version": "1.0.0",
   "description": "Login session ensuring middleware for Express.",
-  "keywords": ["express", "auth", "authn", "authentication", "login", "session", "passport"],
+  "keywords": [
+    "express",
+    "auth",
+    "authn",
+    "authentication",
+    "login",
+    "session",
+    "passport"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/yigithsyn/module-ensureLoggedIn.git"
+    "url": "git://github.com/softroles/ensure-login.git"
   },
   "bugs": {
-    "url": "http://github.com/yigithsyn/module-ensureLoggedIn/issues"
+    "url": "http://github.com/softroles/ensure-login/issues"
   },
-  "author": {
-    "name": "Hüseyin Yiğit",
-    "email": "yigit.hsyn@gmail.com",
-    "url": ""
-  },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
+  "author": "Hüseyin Yiğit <yigit.hsyn@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "vows": "0.6.x"
-  },
+  "dependencies": {},
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 8.10.0" }
+  "engines": {
+    "node": ">= 8.10.0"
+  },
+  "homepage": "https://github.com/softroles/ensure-login#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "ISC"
 }
