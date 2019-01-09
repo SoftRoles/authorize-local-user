@@ -1,6 +1,6 @@
 {
   "name": "@softroles/ensure-login",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Login session ensuring middleware for Express.",
   "keywords": [
     "express",
