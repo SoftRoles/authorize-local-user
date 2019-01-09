@@ -94,4 +94,4 @@ setReturnWhenXhr|`false`|boolean          |Include AJAX calls when remember the 
 [The MIT License](http://opensource.org/licenses/MIT)
 
 ### Original version
-   * Copyright (c) 2012-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
+   * Copyright (c) 2019 Hüseyin Yiğit
