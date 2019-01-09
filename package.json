@@ -1,22 +1,21 @@
 {
-  "name": "@softroles/ensure-login",
-  "version": "3.0.0",
-  "description": "Login session ensuring middleware for Express.",
+  "name": "@softroles/authorize-local-user",
+  "version": "1.0.0",
+  "description": "Authorize local user",
   "keywords": [
     "express",
     "auth",
-    "authn",
     "authentication",
     "login",
     "session",
-    "passport"
+    "local"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/softroles/ensure-login.git"
+    "url": "git://github.com/softroles/authorize-local-user.git"
   },
   "bugs": {
-    "url": "http://github.com/softroles/ensure-login/issues"
+    "url": "http://github.com/softroles/authorize-local-user/issues"
   },
   "author": "Hüseyin Yiğit <yigit.hsyn@gmail.com>",
   "licenses": [
@@ -33,7 +32,7 @@
   "engines": {
     "node": ">= 8.10.0"
   },
-  "homepage": "https://github.com/softroles/ensure-login#readme",
+  "homepage": "https://github.com/softroles/authorize-local-user#readme",
   "directories": {
     "lib": "lib",
     "test": "test"
