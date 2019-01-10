@@ -5,7 +5,7 @@ var app = express();
 //=========================================
 // authorization check
 //=========================================
-const authorizeLocalUser = require("../lib/index").authorizeLocalUser
+const authorizeLocalUser = require("../lib/index")
 
 app.use(require('morgan')('tiny'));
 app.use(authorizeLocalUser())
