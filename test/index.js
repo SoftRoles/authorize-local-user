@@ -3,32 +3,17 @@ const freePort = require("find-free-port")
 var app = express();
 
 //=========================================
-var mongodb;
-var assert = require("assert")
-var mongoClient = require("mongodb").MongoClient
-var mongodbUrl = "mongodb://127.0.0.1:27017"
-mongoClient.connect(mongodbUrl, { poolSize: 10, useNewUrlParser: true }, function (err, client) {
-    assert.equal(null, err);
-    mongodb = client;
-});
-
-//=========================================
 // authorization check
 //=========================================
-const ensureLogin = require("../lib/index").ensureLogin
+const authorizeLocalUser = require("../lib/index").authorizeLocalUser
 
 app.use(require('morgan')('tiny'));
-app.use(ensureLogin({ redirectTo: "/403", localUser: true }, function (token, callback) {
-    mongodb.db("auth").collection("users").findOne({ token: token }, function (err, user) {
-        return callback(user); 
-    });
-}))
+app.use(authorizeLocalUser())
+app.use(authorizeLocalUser(null))
+app.use(authorizeLocalUser({ username: 'localUser' }))
 
-app.get("/", function (req, res) {
-    res.send("Hello world!")
-})
-app.get("/403", function (req, res) {
-    res.sendStatus(403)
+app.get("/user", function (req, res) {
+    res.send(req.user)
 })
 
 freePort(3000, function (err, port) {
