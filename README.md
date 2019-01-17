@@ -1,7 +1,6 @@
 # authorize-local-user
 
-This middleware authorize requests from local host ip as a user (default *admin*). But incase the session 
-and user not already assigned. 
+This middleware authorize requests from local host ip as a user (default *admin*). But incase the *user* not already assigned to request. 
 
 ## Install
 

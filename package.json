@@ -1,6 +1,6 @@
 {
   "name": "@softroles/authorize-local-user",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Authorize local user",
   "keywords": [
     "express",
